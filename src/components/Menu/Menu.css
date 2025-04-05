@@ -1,0 +1,226 @@
+@media only screen and (min-width:340px) {
+    .myNav {
+        background-color: rgb(41, 41, 41);
+        width: 100%;
+        height: 190px;
+        /* ارتفاع ثابت برای هدر */
+        top: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        z-index: 1000;
+
+    }
+
+    .imgInMenu {
+        position: absolute;
+        top: 10px;
+        margin-right: 30px;
+    }
+
+    .myNav,
+    nav {
+        max-width: 100vw;
+        /* جلوگیری از خروج عناصر از صفحه */
+        overflow-x: hidden;
+    }
+
+    .menu-btn {
+        background: none;
+        border: none;
+        font-size: 24px;
+        color: white;
+        cursor: pointer;
+        z-index: 1100;
+        margin-top: 90px;
+        margin-left: 500px;
+        /* دکمه بالاتر از همه باشد */
+    }
+
+    .imgInHeader {
+        max-width: 100%;
+        /* جلوگیری از بزرگ‌تر شدن لوگو */
+        height: auto;
+    }
+
+    nav {
+        position: absolute;
+        top: 60px;
+        /* منو زیر هدر قرار بگیرد */
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        /* تمام صفحه را بگیرد */
+        background: rgba(41, 41, 41, 0.95);
+        text-align: center;
+        padding-top: 50px;
+        margin-top: 130px;
+        z-index: 2000;
+        /* بالاتر از همه باشد */
+        display: none;
+        /* در حالت عادی مخفی باشد */
+
+    }
+
+    nav.open {
+        display: flex;
+        /* وقتی باز شد نمایش داده شود */
+        flex-direction: column;
+    }
+
+    .myUl {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .myUl li {
+        padding: 15px 0;
+    }
+
+    .myUl li a {
+        color: white;
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .myUl li a:hover {
+        color: red;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .myNav {
+        background-color: rgb(41, 41, 41);
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+        z-index: 1000;
+    }
+
+    .imgInMenu {
+        margin-right: 350px;
+    }
+
+    nav {
+        display: flex !important;
+        position: absolute;
+        margin-top: 90px;
+        padding: 4px;
+        height: auto;
+        background: rgb(41, 41, 41);
+        width: 100%;
+        text-align: right;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0;
+        z-index: 1100;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    .myUl {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding: 0;
+        position: relative;
+        z-index: 1200;
+        margin-top: -40px;
+    }
+
+    .myUl li {
+        white-space: nowrap;
+
+    }
+
+    .myUl li a {
+        margin-left: 20px;
+        color: rgb(184, 184, 184);
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .imgInHeader {
+        position: absolute;
+        width: 170px;
+        top: 10px;
+        margin-right: 500px;
+    }
+
+    .imgInFirstSection {
+        margin-right: 600px;
+    }
+}
+
+@media only screen and (min-width:1919px) {
+    .myNav {
+        background-color: rgb(41, 41, 41);
+        width: 100%;
+        height: 100px;
+    }
+
+    nav {
+        display: flex !important;
+        position: absolute;
+        margin-top: -10px;
+        padding: 4px;
+        background: rgb(41, 41, 41);
+        width: 100%;
+        text-align: right;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0;
+        z-index: 1100;
+    }
+
+    .myUl {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding: 0;
+        position: relative;
+        z-index: 1200;
+        margin-top: -40px;
+    }
+
+    .myUl li {
+        white-space: nowrap;
+
+    }
+
+    .myUl li a {
+        margin-left: 20px;
+        color: rgb(184, 184, 184);
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .imgInFirstSection {
+        margin-right: 1100px;
+        width: 400px;
+    }
+
+    .imgInHeader {
+        position: absolute;
+        width: 170px;
+        margin-top: 50px;
+        margin-left: 1100px;
+    }
+    .imgInMenu{
+        position: absolute;
+        margin-right: 90px;
+        z-index: 1900;
+    }
+}

@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    direction: rtl;
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+}
+
+html,
+body {
+    overflow-x: hidden;
+    /* حذف اسکرول افقی */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.btn :hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.aInBtn3:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    padding-right: 3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-right: 10px;
+}
+
+.boldWord {
+    color: red;
+    opacity: 1;
+    font-weight: 400;
+}
+
+.headers {
+    margin-bottom: 15px;
+}
+
+.colorfull {
+    color: #7f7f7f;
+}
+
+.img {
+    width: 100%;
+}
+
+.selfCenter {
+    margin: auto;
+    width: 800px;
+    line-height: 30px;
+}
+
+.aInBtn4 {
+    border-radius: 7px;
+    border: 1px solid rgb(135, 135, 135);
+    background-color: rgb(255, 255, 255);
+    padding: 13px;
+    padding-top: 8px;
+    color: black;
+    opacity: 0.6;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.h4InBoxes {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.--boxes {
+    width: 350px;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 100px;
+    height: 600px;
+
+}
+
+@media only screen and (min-width:340px) {
+    .container {
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .container {
+        width: 100%;
+
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}
+
+@media only screen and (min-width:1919px) {
+
+    .container {
+        width: 85%;
+        margin: auto;
+        padding-right: 3px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}

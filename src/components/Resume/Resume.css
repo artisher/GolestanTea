@@ -1,0 +1,198 @@
+@media only screen and (min-width: 340px) {
+    .resSection {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: #105153;
+        border-bottom: 26px solid #e9d69f;
+        padding-bottom: 280px;
+    }
+
+    .h5InResSection {
+        font-size: 20px;
+        color: white;
+    }
+
+    .secH5InResSection {
+        color: #00cdb6;
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .Word3 {
+        color: #009da2;
+        font-size: 22px;
+    }
+
+    .h5Hospital {
+        color: #bcb4a0;
+        font-size: 18px;
+    }
+
+    .pInRes {
+        margin-bottom: 30px;
+    }
+
+    .imgHospital {
+        width: 300px;
+        position: absolute;
+        margin: auto;
+        margin-top: -290px;
+
+    }
+
+    .textInResSection {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .aInBtn5 {
+
+        border-radius: 7px;
+        border: 1px solid rgb(135, 135, 135);
+        background-color: rgb(255, 255, 255);
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        color: black;
+        opacity: 0.6;
+        text-decoration: none;
+        font-size: 17px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .resSection {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: #105153;
+        border-bottom: 26px solid #e9d69f;
+        padding-bottom: 280px;
+    }
+
+    .h5InResSection {
+        font-size: 20px;
+        color: white;
+    }
+
+    .secH5InResSection {
+        color: #00cdb6;
+        font-size: 25px;
+        font-weight: 300;
+    }
+
+    .Word3 {
+        color: #009da2;
+        font-size: 32px;
+    }
+
+    .h5Hospital {
+        color: #bcb4a0;
+        font-size: 18px;
+    }
+
+    .pInRes {
+        margin-bottom: 30px;
+    }
+
+    .imgHospital {
+
+        position: absolute;
+        margin: auto;
+        margin-right: 320px;
+        margin-top: -280px;
+    }
+
+    .textInResSection {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .aInBtn5 {
+
+        border-radius: 7px;
+        border: 1px solid rgb(135, 135, 135);
+        background-color: rgb(255, 255, 255);
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        color: black;
+        opacity: 0.6;
+        text-decoration: none;
+        font-size: 17px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 1919px) {
+    .resSection {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: #105153;
+        border-bottom: 26px solid #e9d69f;
+        padding-bottom: 280px;
+    }
+
+    .h5InResSection {
+        font-size: 20px;
+        color: white;
+    }
+
+    .secH5InResSection {
+        color: #00cdb6;
+        font-size: 25px;
+        font-weight: 300;
+    }
+
+    .Word3 {
+        color: #009da2;
+        font-size: 32px;
+    }
+
+    .h5Hospital {
+        color: #bcb4a0;
+        font-size: 18px;
+    }
+
+    .pInRes {
+        margin-bottom: 30px;
+    }
+
+    .imgHospital {
+
+        position: absolute;
+        margin: auto;
+        width: 400px;
+        margin-right: 600px;
+        margin-top: -280px;
+    }
+
+    .textInResSection {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .aInBtn5 {
+
+        border-radius: 7px;
+        border: 1px solid rgb(135, 135, 135);
+        background-color: rgb(255, 255, 255);
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        color: black;
+        opacity: 0.6;
+        text-decoration: none;
+        font-size: 17px;
+        margin-left: 10px;
+    }
+}

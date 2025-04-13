@@ -1,10 +1,10 @@
-import image7 from "../../../dist/images/7.jpg"
+
 
 const Rice = () => {
     return (
 
         <div>
-            <img src={image7} className="img bannerRice" />
+            ///
             <div className="boxInSlider">
                 <h4 className="h4InSlider">برنج گلستان</h4>
                 <h5 className="h5InSlider">معرفی محصول</h5>

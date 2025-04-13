@@ -1,9 +1,9 @@
-import image9 from "../../../dist/images/9.jpg"
+
 
 const Pistachios = () => {
     return (
         <div>
-            <img src={image9} className="bgImg PistachiosImg" />
+            ///bgImg PistachiosImg
             <div className="boxInSlider sliderInProductsSection2">
                 <h4 className="h4InSlider">پسته های گلستان</h4>
                 <h5 className="h5InSlider">معرفی محصول</h5>

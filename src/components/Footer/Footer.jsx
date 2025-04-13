@@ -1,7 +1,5 @@
 import "../Footer/Footer.css"
 import IconsFooter from "../IconsFooter/IconsFooter";
-import image16 from "../../../dist/images/16.png"
-import image17 from "../../../dist/images/17.png"
 const Footer = () => {
     return (<div>
         <div className="footer">
@@ -11,7 +9,7 @@ const Footer = () => {
             <div className="mainFooter">
                 <div className="sectionsInFooter">
                     <div className="sec1">
-                        <img src={image16} alt="" />
+                       //
                         <div className="contentInfooter">
                             <h5 className="h5InFooter">چای گلستان</h5>
                             <h6><a href="#">چای ممتاز هندوستان​</a></h6>
@@ -21,7 +19,7 @@ const Footer = () => {
                             <h6><a href="#">چای صبحانه گلستان​</a></h6>
                         </div>
                     </div>
-                    <div className="sec2"> <img src={image17} alt="" />
+                    <div className="sec2"> //
                         <div className="contentInfooter">
                             <h5 className="h5InFooter">تی بگ گلستان</h5>
                             <h6><a href="#">تی بگ بلک لاين</a></h6>
@@ -31,7 +29,7 @@ const Footer = () => {
                             <h6><a href="#">منوش چای سبز</a></h6>
                         </div>
                     </div>
-                    <div className="sec3"> <img src={image16} alt="" />
+                    <div className="sec3"> ///
                         <div className="contentInfooter">
                             <h5 className="h5InFooter">ادویه گلستان</h5>
                             <h6><a href="#">زعفران ممتاز خراسان</a></h6>
@@ -41,7 +39,7 @@ const Footer = () => {
                             <h6><a href="#">زردچوبه ممتاز</a></h6>
                         </div>
                     </div>
-                    <div className="sec4"> <img src={image16} alt="" />
+                    <div className="sec4">///
                         <div className="contentInfooter">
                             <h5 className="h5InFooter">حبوبات گلستان</h5>
                             <h6><a href="#">لوبيا قرمز ممتاز</a></h6>

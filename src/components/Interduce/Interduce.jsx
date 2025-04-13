@@ -1,7 +1,8 @@
-import image3 from "../../../dist/images/3.png"
-import image4 from "../../../dist/images/4.png"
-import image5 from "../../../dist/images/5.png"
-import image6 from "../../../dist/images/6.png"
+import image4 from "../../images/4.jpg";
+import image5 from "../../images/5.png";
+import image6 from "../../images/6.png";
+import image7 from "../../images/7.png";
+import image8 from "../../images/8.png";
 import "../Interduce/Interduce.css"
 const Interduce = () => {
     return (
@@ -9,8 +10,8 @@ const Interduce = () => {
             <div className="secSection">
                 <br />
                 <hr />
-                <div className="contentInInterduce">
-                    <h3 className="h3InFirstSection boldWord headers">معرفی گلستان
+                <div className="w-[65%] !m-auto justify-center leading-10">
+                    <h3 className="!mb-[10px] text-[23px] text-red-600 !font-semibold">معرفی گلستان
                     </h3>
                     <p className="colorfull">آنچه که امروز با نام مجموعه <span className="boldWord">گلستان </span> می‌شناسیم در
                         سال 1329 بنیان
@@ -42,7 +43,7 @@ const Interduce = () => {
 
                     <br />
                     <br />
-                    <h3 className="h3InFirstSection boldWord headers">محصولات گلستان
+                    <h3 className="!mb-[10px] text-[23px] text-red-600 !font-semibold">محصولات گلستان
                     </h3>
                     <p className="colorfull"><span className="boldWord"> نام تجاری گلستان</span> قدمتی به اندازه عمر شرکت گلستان
                         دارد. گلستان
@@ -55,26 +56,37 @@ const Interduce = () => {
                         و با اطمینان از نهایت کیفیت این نام تجاری حمایت می‌کنند.</p>
                 </div>
             </div>
-            <div className="boxInSecSection colorfull boxHidder">
+            <div className="boxInSecSection flex !mt-[100px] colorfull justify-center gap-[22px]">
                 <div className="box1 boxes">
-                    <img src={image3} />
-                    <h4 className="hInBoxes">مشتریان گلستان</h4>
+                    <img src={image8} alt="" />
+                    <h4 className="!p-[20px] border-b-2">مشتریان گلستان</h4>
+                    <br />
                 </div>
                 <div className="box2 boxes">
-                    <img src={image4} />
-                    <h4 className="hInBoxes">محصولات گلستان</h4>
+                    <img src={image7} alt="" />
+                    <h4 className="!p-[20px] border-b-2">محصولات گلستان</h4>
+                    <br />
                 </div>
                 <div className="box3 boxes">
-                    <img src={image5} />
-                    <h4 className="hInBoxes"> مراكز فروش
+                    <img src={image6} alt="" />
+                    <h4 className="!p-[20px] border-b-2"> مراكز فروش
                     </h4>
+                    <br />
                 </div>
                 <div className="box4 boxes">
-                    <img src={image6} />
-                    <h4 className="hInBoxes"> سرمایه انسانی</h4>
+                    <img src={image5} alt="" />
+                    <h4 className="!p-[20px] border-b-2"> سرمایه انسانی</h4>
+                    <br />
+
                 </div>
 
+
             </div>
+            <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
             <hr />
             <br />
         </div>

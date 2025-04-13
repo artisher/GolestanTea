@@ -1,7 +1,5 @@
 import ResumeContent from "../ResumeContent/ResumeContent";
 import "../Resume/Resume.css"
-import image15 from "../../../dist/images/15.jpg"
-
 const Resume = () => {
     return (<div>
         <div className="resSection">
@@ -23,7 +21,7 @@ const Resume = () => {
             
 
         </div>
-        <img src={image15} alt="" className="imgHospital" />
+        ///imgHospital
         <ResumeContent />
     </div>);
 }

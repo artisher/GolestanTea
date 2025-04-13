@@ -30,13 +30,7 @@ body {
     color: white;
 }
 
-.container {
-    width: 85%;
-    margin: auto;
-    padding-right: 3px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin-right: 10px;
-}
+
 
 .boldWord {
     color: red;
@@ -90,27 +84,3 @@ body {
 
 }
 
-@media only screen and (min-width:340px) {
-    .container {
-        width: 100%;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    }
-}
-
-@media only screen and (min-width:1000px) {
-    .container {
-        width: 100%;
-
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    }
-}
-
-@media only screen and (min-width:1919px) {
-
-    .container {
-        width: 85%;
-        margin: auto;
-        padding-right: 3px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    }
-}

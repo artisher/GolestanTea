@@ -1,13 +1,12 @@
 import "../VideoMag/VideoMag.css"
-import image11 from "../../../dist/images/11.jpg"
-import image12 from "../../../dist/images/12.jpg"
+
 
 const VideoMag = () => {
     return (
         <div>
             <div className="videoSection">
                 <div className="box1 --boxes">
-                    <img src={image11} />
+                    
                     <h4 className="h4InBoxes boldWord">سالاد نودل</h4>
                     <p className="pInBoxes">انودل هاتی کارا یك میان‌وعده‌ی مغذی، در هر موقعیتی كه باشید با كمی آب جوش و یك
                         نودل
@@ -15,7 +14,7 @@ const VideoMag = () => {
                         می‌توانید از یك غذای سالم و خوشمزه لذت ببرید.</p>
                     <button className="btn "> <a href="#" className="aInBtn4">ویدیو های بیشتر</a></button>
                 </div>
-                <div className="box2 --boxes"><img src={image11} alt="" />
+                <div className="box2 --boxes">
                     <h4 className="h4InBoxes  boldWord ">اینستاگرام هاتی نودل</h4>
                     <p className="pInBoxes">انودل‌های هاتی كارا را می‌توان جایگزین سالمی برای غذاهای فست‌فودی دانست. طعم
                         عالی،‌ ارزش
@@ -23,7 +22,7 @@ const VideoMag = () => {
                         بالا و قیمت مناسب از این محصول غذای سالم و كاملی ساخته است.</p>
                     <button className="btn"> <a href="#" className="aInBtn4">ویدیو های بیشتر</a></button>
                 </div>
-                <div className="box3  --boxes hidderVideo"><img src={image12} alt="" />
+                <div className="box3  --boxes hidderVideo">
                     <h4 className="h4InBoxes boldWord">برنج گلستان</h4>
                     <p className="pInBoxes">اعطر و طعم بی‌نظیر برنج گلستان با هیچ برنج دیگری قابل مقایسه نیست. با گلستان،‌
                         كیفیت

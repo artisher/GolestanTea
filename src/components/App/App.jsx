@@ -10,8 +10,8 @@ import Footer from "../Footer/Footer";
 const App = () => {
     /* created for 1920px , 1000px, 340px*/
     return (<div>
-        <div className="main">
-            <div className="container">
+        <div className="main flex justify-center overflow-x-hidden">
+            <div className=" w-full m-auto md:w-[81.2%] border">
                 <Menu />
                 <GiveAway />
                 <Interduce />

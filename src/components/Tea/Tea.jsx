@@ -1,9 +1,8 @@
-import image8 from "../../../dist/images/8.jpg"
 
 const Tea = () => {
     return (
         <div>
-            <img src={image8} className="img" />
+            ///
             <div className="boxInSlider sliderInProductsSection">
                 <h4 className="h4InSlider">چای گلستان</h4>
                 <h5 className="h5InSlider">معرفی محصول</h5>

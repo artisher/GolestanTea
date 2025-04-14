@@ -3,7 +3,6 @@ import image5 from "../../images/5.png";
 import image6 from "../../images/6.png";
 import image7 from "../../images/7.png";
 import image8 from "../../images/8.png";
-import "../Interduce/Interduce.css"
 const Interduce = () => {
     return (
         <div>

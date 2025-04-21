@@ -1,37 +1,51 @@
-import "../VideoMag/VideoMag.css"
+import image11 from "../../images/11.jpg";
+import image12 from "../../images/12.jpg";
+import image13 from "../../images/13.jpg";
+
 
 
 const VideoMag = () => {
     return (
         <div>
-            <div className="videoSection">
-                <div className="box1 --boxes">
-                    
-                    <h4 className="h4InBoxes boldWord">سالاد نودل</h4>
-                    <p className="pInBoxes">انودل هاتی کارا یك میان‌وعده‌ی مغذی، در هر موقعیتی كه باشید با كمی آب جوش و یك
+            <div className=" flex gap-[15px] justify-center !m-[60px]">
+                <div className=" w-[300px] shadow-lg h-[500px]">
+                    <img src={image11} alt="" className="w-full " />
+                    <h4 className=" text-red-600 !font-bold text-[19px]">سالاد نودل</h4>
+                    <p className="!mb-[10px]">انودل هاتی کارا یك میان‌وعده‌ی مغذی، در هر موقعیتی كه باشید با كمی آب جوش و یك
                         نودل
                         هاتی‌كارا
                         می‌توانید از یك غذای سالم و خوشمزه لذت ببرید.</p>
-                    <button className="btn "> <a href="#" className="aInBtn4">ویدیو های بیشتر</a></button>
-                </div>
-                <div className="box2 --boxes">
-                    <h4 className="h4InBoxes  boldWord ">اینستاگرام هاتی نودل</h4>
-                    <p className="pInBoxes">انودل‌های هاتی كارا را می‌توان جایگزین سالمی برای غذاهای فست‌فودی دانست. طعم
-                        عالی،‌ ارزش
-                        غذایی
-                        بالا و قیمت مناسب از این محصول غذای سالم و كاملی ساخته است.</p>
-                    <button className="btn"> <a href="#" className="aInBtn4">ویدیو های بیشتر</a></button>
-                </div>
-                <div className="box3  --boxes hidderVideo">
-                    <h4 className="h4InBoxes boldWord">برنج گلستان</h4>
-                    <p className="pInBoxes">اعطر و طعم بی‌نظیر برنج گلستان با هیچ برنج دیگری قابل مقایسه نیست. با گلستان،‌
-                        كیفیت
-                        زندگی بالاتر
-                        از همیشه است. چرا كه مشتریان گلستان؛‌ لایق بهترین ها هستند.</p>
-                    <button className="btn"><a href="#" className="aInBtn4">ویدیو های بیشتر</a> </button>
-                </div>
+                    <div className="bg-amber-50 h-[50px] p-[10px] absolute w-[130px] flex justify-center items-center rounded-md  border border-gray-500 ">
+                        <a href="#" className="text-gray-500">
+                            ویدیو های بیشتر
+                        </a>
+                    </div>  </div>
+                <div className=" w-[300px] shadow-lg h-[500px]">
+                    <img src={image12} alt="" className="w-full" />
+                    <h4 className="text-red-600 !font-bold text-[19px] ">سالاد نودل</h4>
+                    <p className="!mb-[10px]">انودل هاتی کارا یك میان‌وعده‌ی مغذی، در هر موقعیتی كه باشید با كمی آب جوش و یك
+                        نودل
+                        هاتی‌كارا
+                        می‌توانید از یك غذای سالم و خوشمزه لذت ببرید.</p>
+                    <div className="bg-amber-50 h-[50px] p-[10px] absolute w-[130px] flex justify-center items-center rounded-md  border border-gray-500 ">
+                        <a href="#" className="text-gray-500">
+                            ویدیو های بیشتر
+                        </a>
+                    </div>  </div>
+                <div className=" w-[300px] shadow-lg max-md:hidden h-[500px]">
+                    <img src={image13} alt="" className="w-full" />
+                    <h4 className="text-red-600 !font-bold text-[19px]">سالاد نودل</h4>
+                    <p className="!mb-[10px]">انودل هاتی کارا یك میان‌وعده‌ی مغذی، در هر موقعیتی كه باشید با كمی آب جوش و یك
+                        نودل
+                        هاتی‌كارا
+                        می‌توانید از یك غذای سالم و خوشمزه لذت ببرید.</p>
+                    <div className="bg-amber-50 h-[50px] p-[10px] absolute w-[130px] flex justify-center items-center rounded-md  border border-gray-500 ">
+                        <a href="#" className="text-gray-500">
+                            ویدیو های بیشتر
+                        </a>
+                    </div>  </div>
             </div>
-        </div>
+        </div >
     );
 }
 

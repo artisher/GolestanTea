@@ -39,7 +39,7 @@ const Pistachios = () => {
                 <br />
                 <div className="bg-amber-50 h-[50px] p-[10px] absolute w-[130px] flex justify-center items-center rounded-md  border border-gray-500 ">
                     <a href="#" className="text-gray-500">
-                        محصولات چای
+                        ناتس گلستان
                     </a>
                 </div>
                 <br />
